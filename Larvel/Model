@@ -1,0 +1,15 @@
+<?php
+
+
+namespace App\Models\BusinessName;
+
+
+use App\Models\BaseModel;
+
+class TableName extends BaseModel
+{
+    // 表注释 COMMENT 
+    protected $table = 'table_name';
+    protected $guarded = ['id'];
+    public $timestamps =  false;
+}
